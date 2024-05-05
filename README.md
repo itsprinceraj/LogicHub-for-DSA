@@ -2,7 +2,7 @@
 
 <h1>Logic Building Practice Repository</h1>
 <br/>
-<h3>Welcome to the Logic Building Practice Repository! 🧠💻</h3>
+<h2>Welcome to the Logic Building Practice Repository! 🧠💻</h2>
 <p>This repository is dedicated to improving your logical thinking and problem-solving skills through a curated collection of questions ranging from basic to advanced levels. Whether you're a beginner looking to strengthen your foundational understanding of programming logic or an experienced developer aiming to sharpen your problem-solving abilities, this repository has something for everyone. </p>
 <h3>Features:</h3>
 <hr/>
