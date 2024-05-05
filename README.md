@@ -14,7 +14,6 @@ Contributor-Friendly: Contribute your own logic-building questions and solutions
   <li>Contribute: Share your own logic-building questions and solutions by creating pull requests, helping create a diverse and comprehensive resource for logic enthusiasts.</li>
 </ul>
 <h2>Get Started:</h2>
-<hr/>
 <p>Ready to enhance your logical thinking skills? Dive into the world of logic building by exploring our collection of questions and solutions. Start with the basics and work your way up to mastering advanced concepts. Happy coding and happy problem-solving!</p>
 
 
