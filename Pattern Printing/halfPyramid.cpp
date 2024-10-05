@@ -12,7 +12,7 @@ int main()
     for (int r = 0; r < n - 1; r++)
     {
 
-        //  inner loop for r + 1; to achieve half pyramid;
+        //  inner loop for r + 1; to achieve half pyramid; you can also write it (c <= r)
         for (int c = 0; c < r + 1; c++)
         {
             cout << "* ";
