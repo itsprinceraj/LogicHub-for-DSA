@@ -1,6 +1,21 @@
 #include <iostream>
 using namespace std;
 
+/*
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+* * * * * *
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+
+*/
+
 // full pyramid;
 void fullPyramid(int n)
 {

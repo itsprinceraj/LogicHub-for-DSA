@@ -1,6 +1,25 @@
 #include <iostream>
 using namespace std;
 
+/*
+
+
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * * *
+* * * * * * *
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+
+*/
+
 void halfPyramid(int n)
 {
     for (int r = 0; r < n; r++)

@@ -1,6 +1,25 @@
 #include <iostream>
 using namespace std;
 
+/*
+
+      *
+     * *
+    *   *
+   *     *
+  *       *
+ *         *
+*           *
+*           *
+ *         *
+  *       *
+   *     *
+    *   *
+     * *
+      *
+
+*/
+
 //  hollow full pyramid;
 void hollowFullPyramid(int n)
 {

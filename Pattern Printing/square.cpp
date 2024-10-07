@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
 
-// pattern:
-//    * * * *
-//    * * * *
-//    * * * *
-//    * * * *
+/*
+   * * * *
+   * * * *
+   * * * *
+   * * * *
+
+ */
 
 int main()
 {

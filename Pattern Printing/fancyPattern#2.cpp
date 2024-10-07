@@ -1,6 +1,17 @@
 #include <iostream>
 using namespace std;
 
+/*
+1
+2 * 3
+4 * 5 * 6
+7 * 8 * 9 * 10
+7 * 8 * 9 * 10
+4 * 5 * 6
+2 * 3
+1
+*/
+
 // upper part of the pattern;
 void fancy2(int n)
 {

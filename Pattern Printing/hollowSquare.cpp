@@ -1,6 +1,18 @@
 #include <iostream>
 using namespace std;
 
+/*
+
+* * * * * * *
+*           *
+*           *
+*           *
+*           *
+*           *
+* * * * * * *
+
+*/
+
 int main()
 {
 
@@ -16,7 +28,7 @@ int main()
         {
 
             //  if you also want to add stars on diagonal , then row, then print start where rows and columns are same;
-            if (r == 0 || r == (side - 1) || c == 0 || c == (side - 1) || r == c)
+            if (r == 0 || r == (side - 1) || c == 0 || c == (side - 1))
             {
                 cout << "* ";
             }

@@ -1,6 +1,17 @@
 #include <iostream>
 using namespace std;
 
+/*
+
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+
+*/
+
 int main()
 {
     int n;
@@ -8,11 +19,11 @@ int main()
     cin >> n;
 
     //  outer loop for n rows
-    for (int r = 1; r < n; r++)
+    for (int r = 1; r <= n; r++)
     {
 
         //  inner loop to print stars in decreasing order ;
-        for (int c = 1; c < (n - r); c++)
+        for (int c = 1; c <= (n - r); c++)
         {
             cout << "* ";
         }

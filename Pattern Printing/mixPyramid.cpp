@@ -1,6 +1,27 @@
 #include <iostream>
 using namespace std;
 
+/*
+
+
+* * * * * * *   * * * * * * *
+* * * * * *       * * * * * *
+* * * * *           * * * * *
+* * * *               * * * *
+* * *                   * * *
+* *                       * *
+*                           *
+*                           *
+* *                       * *
+* * *                   * * *
+* * * *               * * * *
+* * * * *           * * * * *
+* * * * * *       * * * * * *
+* * * * * * *   * * * * * * *
+
+
+*/
+
 //     upper part of the mixed pyramid;
 void upperPart(int n)
 {
