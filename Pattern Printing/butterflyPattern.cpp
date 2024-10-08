@@ -21,7 +21,7 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "Enter an odd number of rows: ";
+    cout << "Enter num: ";
     cin >> n;
     cout << endl;
 
@@ -35,7 +35,7 @@ int main()
         }
 
         //  for spaces
-        for (int c = 0; c <= n - 2 * (r - 1) + 1; c++)
+        for (int c = 0; c < 2 * (n - r - 1); c++)
         {
             cout << "  ";
         }
