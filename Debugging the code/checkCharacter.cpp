@@ -2,7 +2,7 @@
 using namespace std;
 
 int main()
-{
+{ 
 
     //  to debugg ---------
     char c;
