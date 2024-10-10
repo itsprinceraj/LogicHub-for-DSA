@@ -34,7 +34,7 @@ void fancy2(int n)
     // outer loop which will print the lower part of the pattern;
     for (int r = n - 1; r >= 0; r--) // initialize r form n-1
     {
-        int start = ((r * (r + 1)) / 2 + 1); // create a start variable for each row  and for each input of n;
+        int start = ((r * (r + 1)) / 2 + 1); // it will calculate starting value for each row;
 
         // inner loop
         for (int c = 0; c < (2 * r + 1); c++)
