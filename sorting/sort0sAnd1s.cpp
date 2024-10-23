@@ -49,17 +49,21 @@ void sortArray(int arr[], int n)
     /*******************************************/
 
     // 4. Two pointer Approach;
-    for (int i = 0; i < n; i++)
+    int i = 0;
+    int j = n - 1;
+    while (i < j)
     {
-        if (arr[i] == 1)
+        if (arr[i] == 0)
+            i++;
+        else if (arr[j] == 1)
+            j--;
+        else
         {
-            for (int j = 0; j < n; j++)
-            {
-                if (arr[j] == 0)
-                {
-                    arr[i] = 0;
-                }
-            }
+            arr[i] = arr[i] ^ arr[j];
+            arr[j] = arr[i] ^ arr[j];
+            arr[i] = arr[j] ^ arr[i];
+            i++;
+            j--;
         }
     }
 }

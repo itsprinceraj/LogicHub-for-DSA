@@ -13,9 +13,9 @@ void reverseArray(int arr[], int size)
     //     cout << arr[i] << " ";
     // }
 
-    // using swap method;
-    // int start = 0;
-    // int end = size - 1;
+    // using swap method with two pointer approach;
+    int start = 0;
+    int end = size - 1;
     // //  using swap method;
     // while (start < end)
     // {
@@ -24,17 +24,27 @@ void reverseArray(int arr[], int size)
     //     end--;
     // }
 
-    // for (int i = 0; i < size; i++)
-    // {
-    //     cout << arr[i] << " ";
-    // }
+    //  without swap, reverse;
+    for (start; start < end; start++)
+    {
+        arr[start] = arr[start] ^ arr[end];
+        arr[end] = arr[start] ^ arr[end];
+        arr[start] = arr[end] ^ arr[start];
+        end--;
+    }
+
+    //  printing array;
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
 }
 
 // main function
 int main()
 {
 
-    int arr[] = {10, 20, 30, 40, 50};
+    int arr[] = {10, 20, 30, 40, 50, 60};
     int size = 6;
 
     //  call reverseArray function;
