@@ -24,11 +24,15 @@ void flipArray(int arr[], int size)
     //     }
     // }
 
+    // TC: O(N);
+
     // 2. apply 1s compliment;
     // for (int i = 0; i < size; i++)
     // {
     //     arr[i] = ~arr[i] & 1; // we want only LSB so masking with 1 ,
     // }
+
+    // TC: O(N);
 
     // 3. put (-1) , where exist 1 into the array;
 
@@ -43,6 +47,8 @@ void flipArray(int arr[], int size)
             arr[i] = ~arr[i] + 1; // -2 +1 = -1;
         }
     }
+
+    //  TC: O(N);
 }
 
 // main function

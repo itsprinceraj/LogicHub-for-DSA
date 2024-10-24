@@ -66,6 +66,8 @@ void sortArray(int arr[], int n)
             j--;
         }
     }
+
+    //  TC:  O(N);
 }
 
 // main function;
