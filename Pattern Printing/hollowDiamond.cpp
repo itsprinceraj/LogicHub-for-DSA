@@ -40,7 +40,7 @@ void hollowFullPyramid(int n)
             //  these condition will only print stars, in starting and end of the row and column;
 
             //  remove the condition wich prints first row to achieve hollow diamond pattern ---- (r== n-1);
-            if (c == 0 || c == (totalCols - 1))
+            if (c == 0 || c == r)
                 cout << "* ";
             else
                 cout << "  ";
@@ -54,7 +54,7 @@ void hollowFullPyramid(int n)
 void hollowInvertedPyramid(int n)
 {
 
-    for (int r = 0; r < n; r++)
+    for (int r = 1; r < n; r++)
     {
 
         // for spaces
@@ -76,6 +76,8 @@ void hollowInvertedPyramid(int n)
         cout << endl;
     }
 }
+
+//  main function ;
 int main()
 {
     int n;

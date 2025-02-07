@@ -31,7 +31,7 @@ int main()
         }
 
         //  for printing start;
-        for (int c = 0; c < n - r - 1; c++)
+        for (int c = 0; c < n - r; c++)
         {
             cout << "* ";
         }

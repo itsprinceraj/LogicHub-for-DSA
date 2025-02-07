@@ -25,9 +25,9 @@ int main()
     {
 
         //  inner loop for columns;
-        for (int c = 0; c < n - r; c++)
+        for (int c = 1; c <= n - r; c++)
         {
-            cout << c + 1 << " ";
+            cout << c << " ";
         }
 
         cout << endl;

@@ -54,7 +54,7 @@ void upperPart(int n)
 void lowerPart(int n)
 {
     //  outer loop
-    for (int r = 0; r < n; r++)
+    for (int r = 1; r < n; r++)
     {
 
         //  print stars
@@ -78,6 +78,8 @@ void lowerPart(int n)
         cout << endl;
     }
 }
+
+//  main function ;
 int main()
 {
 

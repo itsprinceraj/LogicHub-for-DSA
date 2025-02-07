@@ -26,10 +26,16 @@ int main()
     {
 
         // inner loop
-        for (int c = r + 1; c <= n; c++) // initialize c with r+1 to print +1 number in each row;
+        for (int c = 0; c < n; c++) // initialize c with r+1 to print +1 number in each row;
         {
-            if (r == 0 || c == r + 1 || c == n)
-                cout << c << " ";
+            if (r == 0)
+                cout << c + 1 << " ";
+            else if (c == 0)
+                cout << r + 1 << " ";
+            else if (c == n - r - 1)
+            {
+                cout << n << " ";
+            }
             else
                 cout << "  ";
         }

@@ -22,7 +22,7 @@ int main()
     cin >> n;
     cout << endl;
 
-    //  outer loop
+    //  Upper Part
     for (int r = 0; r < n; r++)
     {
         //  inner loop  for increasing number of chracters in odd manner like: 1,3,5,7.. etc;
@@ -37,9 +37,11 @@ int main()
 
         cout << endl;
     }
-    n = n - 1; // this is to print the lower half of the pattern ;
 
-    for (int r = 0; r < n; r++)
+    // n = n - 1; // this is to print the lower half of the pattern ;
+
+    //  Lower Part
+    for (int r = 1; r < n; r++)
     {
         //  inner loop  for increasing number of chracters in odd manner like: 1,3,5,7.. etc;
         for (int c = 0; c < (2 * (n - r) - 1); c++)

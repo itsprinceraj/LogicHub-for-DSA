@@ -25,11 +25,7 @@ int main()
         // int totalColumns = r + 1;
         for (int c = 0; c < r + 1; c++)
         {
-            if (r == 0 || r == 1 || r == (n - 1)) // you can also add here a conditon that (r == c) for the diagonal stars , and the below code will be reduced ;
-            {
-                cout << "* ";
-            }
-            else if (c == 0 || c == r + 1 - 1) //  (c == r)
+            if (r == c || r == n - 1 || c == 0)
             {
                 cout << "* ";
             }

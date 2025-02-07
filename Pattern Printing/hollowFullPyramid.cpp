@@ -34,7 +34,7 @@ int main()
         for (int c = 0; c < totalCols; c++)
         {
             //  these condition will only print stars, in starting and end of the row and column;
-            if (r == n - 1 || c == 0 || c == (totalCols - 1))
+            if (r == n - 1 || c == 0 || c == r)
                 cout << "* ";
             else
                 cout << "  ";

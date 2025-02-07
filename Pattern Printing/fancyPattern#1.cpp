@@ -30,8 +30,8 @@ int main()
         // part 2 for full numeric pyramid pattern;
         for (int c = 1; c <= r; c++)
         {
-            cout << r << " ";
-            cout << "* ";
+            cout << r << " * ";
+            
         }
 
         //  part 3 for stars again; print 1 less star cause you are printing 1 star after printing each number;

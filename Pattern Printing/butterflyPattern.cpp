@@ -9,7 +9,6 @@ using namespace std;
 * * * *         * * * *
 * * * * *     * * * * *
 * * * * * * * * * * * *
-* * * * * * * * * * * *
 * * * * *     * * * * *
 * * * *         * * * *
 * * *             * * *
@@ -41,7 +40,7 @@ int main()
         }
 
         //  stars again ;
-        for (int c = 0; c <= r; c++)
+        for (int c = 0; c < r + 1; c++)
         {
             cout << "* ";
         }
@@ -50,15 +49,14 @@ int main()
     }
 
     //******************* lower part **************
-    int start = n;
-    for (int r = 0; r < n; r++)
+
+    for (int r = 1; r < n; r++)
     {
-        int count = start;
-        for (int c = count; c >= 1; c--)
+
+        for (int c = 0; c < n - r; c++)
         {
             cout << "* ";
         }
-        start = start - 1;
 
         //  for spaces
         for (int c = 0; c < 2 * r; c++)

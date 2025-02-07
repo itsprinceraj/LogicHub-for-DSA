@@ -8,8 +8,6 @@ using namespace std;
 1 2 3
 1 2 3 4
 1 2 3 4 5
-1 2 3 4 5 6
-1 2 3 4 5 6 7
 
 */
 
@@ -25,9 +23,9 @@ int main()
     {
 
         //  inner loop for column
-        for (int c = 0; c < r + 1; c++)
+        for (int c = 1; c <= r + 1; c++)
         {
-            cout << (c + 1) << " "; // this will print numbers in pyramid
+            cout << c << " "; // this will print numbers in pyramid
         }
 
         cout << endl;
